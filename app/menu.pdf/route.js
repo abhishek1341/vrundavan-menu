@@ -4,7 +4,7 @@ import path from "node:path";
 export const runtime = "nodejs";
 
 export async function GET(request) {
-  const pdfPath = path.join(process.cwd(), "Menu", "vrundavan-restaurant-menu_compressed_2.pdf");
+  const pdfPath = path.join(process.cwd(), "Menu", "vrundavan-restaurant-menu-2-compressed.pdf");
 
   try {
     const fileStat = await stat(pdfPath);
