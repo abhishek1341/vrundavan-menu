@@ -7,7 +7,7 @@ export async function GET() {
   const pdfPath = path.join(
     process.cwd(),
     "Menu",
-    "vrundavan-restaurant-menu_compressed.pdf"
+    "vrundavan-restaurant-menu_compressed_2.pdf"
   );
 
   const pdfBuffer = await readFile(pdfPath);
